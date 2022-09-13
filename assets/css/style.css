@@ -21,7 +21,7 @@ body {
     background: lightgray;
     background-size: cover;
 }
-.container { 
+.container1 { 
     width: 1000px;
     height: auto;
     margin: auto;
@@ -46,6 +46,17 @@ body {
     color: grey;
     margin: auto;
     }
-section {
-    margin-top: 1px grey;
+.container2 {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+h2 ::before{
+    content: '\25BE';
+    font-weight: bold;
 }

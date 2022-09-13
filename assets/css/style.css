@@ -56,9 +56,15 @@ body {
     margin-top: 1px;
     margin-bottom: 10px;
 }
-h2 ::before{
-    content: '\25BE';
+.title {
+    
     font-weight: bold;
+    font-size: 30px;
+    padding: 5px 0;
+    margin: auto;
+}
+.title::before{
+    content: '\25BE';
 }
 .check {
     display: inline-block;
@@ -84,4 +90,9 @@ h2 ::before{
 }
 ul {
     list-style-type: none;
+}
+li{
+    font-size: medium;
+    margin: auto;
+    font-style: normal;
 }

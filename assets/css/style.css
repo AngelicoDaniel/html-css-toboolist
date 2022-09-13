@@ -48,7 +48,7 @@ body {
     }
 .container2 {
     width: 1000px;
-    height: auto;
+    height: 700px;
     margin: auto;
     padding: 40px;
     background-color: white;
@@ -59,12 +59,13 @@ body {
 .title {
     
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
     padding: 5px 0;
     margin: auto;
 }
 .title::before{
     content: '\25BE';
+    font-size: 20px;
 }
 .check {
     display: inline-block;
@@ -93,9 +94,10 @@ ul {
     list-style-type: none;
 }
 li{
-    font-size: 20px;
-    margin: auto;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 .editorial {
     background-color: #47ADF1;

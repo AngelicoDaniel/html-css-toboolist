@@ -96,6 +96,52 @@ li{
     font-size: 20px;
     margin: auto;
     font-family: 'Times New Roman', Times, serif;
-
-
+}
+.editorial {
+    background-color: #47ADF1;
+    border-radius: 25px;
+    color: white;
+    padding: 5px 10px;
+    vertical-align: middle;
+    font-size: 10px;
+}
+.goals {
+    background-color: #581c44;
+    border-radius: 25px;
+    color: white;
+    padding: 5px 10px;
+    vertical-align: middle;
+    font-size: 10px;
+}
+.recluting {
+    background-color: #0d7226;
+    border-radius: 25px;
+    color: white;
+    padding: 5px 10px;
+    vertical-align: middle;
+    font-size: 10px;
+}
+.mobile {
+    background-color: orange;
+    border-radius: 25px;
+    color: white;
+    padding: 5px 10px;
+    vertical-align: middle;
+    font-size: 10px;
+}
+.website {
+    background-color: #cc8bb6;
+    border-radius: 25px;
+    color: white;
+    padding: 5px 10px;
+    vertical-align: middle;
+    font-size: 10px;
+}
+.sales {
+    background-color: #0a9b22;
+    border-radius: 25px;
+    color: white;
+    padding: 5px 10px;
+    vertical-align: middle;
+    font-size: 10px;
 }

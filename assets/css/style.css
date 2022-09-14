@@ -88,14 +88,12 @@ body {
     border: 1px solid red;
     color: red;
 }
-ul {
-    list-style-type: none;
-}
+
 li{
     font-size: 15px;
     margin: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    list-style-type: none;
 }
 .editorial {
     background-color: #47ADF1;

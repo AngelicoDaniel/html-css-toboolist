@@ -1,143 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-#logo {
-    padding: 10px 20px;
-    vertical-align: middle;
-    padding-right: 5px;
-    }
-#logo-text {
-    font-size: 2rem;
-    vertical-align: middle;
-    font-family: sans-serif;
-    font-weight: bolder;
-    }
+
+html{
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: lightgrey;
+}
+
 header{
     background-color: white;
+    padding: 10px 20px;
+    margin-bottom: 30px;
 }
-body {
-    background: lightgray;
-}
-.container1 { 
+
+main{
     width: 80%;
-    height: auto;
-    margin: auto;
-    padding: 40px;
+    margin: 0 auto;
     background-color: white;
+    padding: 20px 30px 50px 30px;
     border-radius: 10px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-     }
+}
+
+#logo{
+    vertical-align: middle;
+}
+
+#logo-text{
+    vertical-align: middle;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.p-xl{
+    padding: 20px 30px;
+}
+
+.box-top{
+    border-bottom: 1px solid black;   
+}
+
+
 .btn {
-    padding: 8px 2px;
+    padding: 8px 4px;
     border-radius: 10px;
-    border: 0;
+    border: 0px;
 }
-.button1 {
-    background-color: #47ADF1;
-    color: white;  
-    }
-.button2 {
-    background-color: white;
-    color: grey;
-    border: 1px solid;
-    }
-.container2 {
-    width: 80%;
-    height: auto;
-    margin: auto;
-    padding: 50px;
-    background-color: white;
-    border-radius: 10px;
-    margin-top: 1px;
-    margin-bottom: 10px;
+
+.btn-active{
+    background-color: #14AAF5;
+    color: white;
 }
-.title {
-    
-    font-weight: bold;
-    font-size: 20px;
-    padding: 5px 0;
-    margin: auto;
+
+.btn-disabled{
+    background-color: lightgray;
+    border: 1px solid grey;
 }
-.title::before{
-    content: '\25BE';
-    font-size: 20px;
+
+li{
+    list-style: none;
+    line-height: 40px;
 }
-.check {
-    display: inline-block;
+
+.list-title::before{
+    content: '\25BC';
+}
+
+.sublist li::before{
+    margin-right: 10px;
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    text-align: center;
-    vertical-align: middle;
-    border: 1px solid lightgreen;
-    color: lightgreen;
-    padding: 0;
+    padding: 5px 6px;
 }
-.uncheck {
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    text-align: center;
-    vertical-align: middle;
+
+.sublist li::after{
+    margin-left: 10px;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.check::before{
+    content: '\2714';
+    border: 1px solid green;
+    color: green;
+}
+
+.cross::before{
+    content: '\2716';
     border: 1px solid red;
     color: red;
 }
 
-li{
-    font-size: 15px;
-    margin: 20px;
-    font-family: Verdana, Tahoma, sans-serif;
-    list-style-type: none;
-}
-.editorial {
-    background-color: #47ADF1;
-    border-radius: 25px;
+.editorial::after{
+    background-color: #14AAF5;
     color: white;
-    padding: 5px 10px;
-    vertical-align: middle;
-    font-size: 10px;
+    content: 'Editorial';
 }
-.goals {
-    background-color: #581c44;
-    border-radius: 25px;
+
+.q1-goals::after{
+    background-color: violet;
     color: white;
-    padding: 5px 10px;
-    vertical-align: middle;
-    font-size: 10px;
+    content: 'Q1 Goals';
 }
-.recluting {
-    background-color: #0d7226;
-    border-radius: 25px;
+
+.recluiting::after{
+    background-color: lightgreen;
     color: white;
-    padding: 5px 10px;
-    vertical-align: middle;
-    font-size: 10px;
+    content: 'Recluiting';
 }
-.mobile {
+
+.mobile::after{
     background-color: orange;
-    border-radius: 25px;
     color: white;
-    padding: 5px 10px;
-    vertical-align: middle;
-    font-size: 10px;
+    content: 'Mobile';
 }
-.website {
-    background-color: #cc8bb6;
-    border-radius: 25px;
+
+.website::after{
+    background-color: purple;
     color: white;
-    padding: 5px 10px;
-    vertical-align: middle;
-    font-size: 10px;
+    content: 'Website';
 }
-.sales {
-    background-color: #0a9b22;
-    border-radius: 25px;
+
+.sales::after{
+    background-color: lightgreen;
     color: white;
-    padding: 5px 10px;
-    vertical-align: middle;
-    font-size: 10px;
+    content: 'Sales';
 }

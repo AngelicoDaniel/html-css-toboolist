@@ -8,41 +8,55 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-        <div>
-            <img id="logo" src="assets/img/Logo.png" alt="">
-            <span id="logo-text">Toboblist</span>
-        </div>
-    </header>
-    <main>
-        <section class="container1">
-            <span class="btn button1">Add Task</span>
-            <span class="btn button2">Add Section</span>
-        </section>
-       <section class="container2">
-        
-        <div class="title">New Task</div>
+
+<header>
+ <img src="assets/img/Logo.png" alt="logo" id="logo">
+ <span id="logo-text">Toobolist</span>
+</header>
+ 
+<main>
+    <div class="box-top p-xl" >
+        <button class="btn btn-active">Add Task</button>
+        <button class="btn btn-disabled">Add Section</button>
+    </div>
+
+    <div class="p-xl">
+
         <ul>
-        <li><span class="check">&#10003;</span>Quarterly Newsletter <span class="editonial">Editonial</span></li>
+            <li>
+                <h2 class="list-title">New Task</h2>
+                <ul class="sublist">
+                    <li class="check editorial">Lorem ipsum dolor</li>
+                </ul>
+            </li>
         </ul>
 
-        <ul><div class="title">Today</div>
-        <li><span class="check">&#10003;</span>Lorem ipsum <span class="editorial">Editorial</span></li>
-        <li><span class="check">&#10003;</span>Lorem ipsum, dolor sit <span class="goals">Q1 Goals</span> </li>
-        <li><span class="uncheck">&#10006;</span>Lorem ipsum dolor sit amet <span class="recluting">Recluting</span> </li>
-        <li><span class="check">&#10003;</span>Lorem lorem lorem <span class="mobile">Mobile</span></li>
+        <ul>
+            <li>
+                <h2 class="list-title">Today</h2>
+                <ul class="sublist">
+                    <li class="check editorial">Lorem ipsum dolor</li>
+                    <li class="check q1-goals">Lorem ipsum dolor</li>
+                    <li class="cross recluiting">Lorem ipsum dolor</li>
+                    <li class="check mobile">Lorem ipsum dolor</li>
+                </ul>
+            </li>
         </ul>
 
-        <div class="title">Upcoming</div><ul>
-        <li><span class="uncheck">&#10006;</span>Lorem ipsum <span class="website">Website</span> </li>
-        <li><span class="check">&#10003;</span>Lorem ipsum, dolor sit <span class="sales">Sales</span></li>
-        <li><span class="check">&#10003;</span>Lorem ipsum dolor sit amet </li>
-        <li><span class="check">&#10003;</span>lorem lorem lorem <span class="editorial">Editorial</span></li>
+        <ul>
+            <li>
+                <h2 class="list-title">Upcoming</h2>
+                <ul class="sublist">
+                    <li class="cross">Lorem ipsum dolor</li>
+                    <li class="check website">Lorem ipsum dolor</li>
+                    <li class="check sales">Lorem ipsum dolor</li>
+                    <li class="check editorial">Lorem ipsum dolor</li>
+                </ul>
+            </li>
         </ul>
-       </section>
-     
-    </main>
-    
 
+    </div>
+
+</main>
 </body>
 </html>

@@ -67,24 +67,22 @@ body {
 }
 .check {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     text-align: center;
     vertical-align: middle;
-    line-height: 20px;
     border: 1px solid lightgreen;
     color: lightgreen;
     padding: 0;
 }
 .uncheck {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     text-align: center;
     vertical-align: middle;
-    line-height: 20px;
     border: 1px solid red;
     color: red;
 }
@@ -92,7 +90,7 @@ body {
 li{
     font-size: 15px;
     margin: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
     list-style-type: none;
 }
 .editorial {
